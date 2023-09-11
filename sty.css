@@ -1,0 +1,99 @@
+.class2 { 
+    color: black;
+    margin: 8px;
+    width: calc(100%-25px);
+    height: 75px;
+    border: 1px solid gray;
+    font-size: 3rem;
+} 
+
+#uniq  { 
+    color: black;
+}
+
+.class3{
+    width: 25%;
+    border: 1px solid red;
+}
+
+h1{ 
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-left: 32px;
+    margin-right: 64px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border: 1px rgb solid (black);
+ } 
+
+
+h1  { 
+   font-size: 2rem;
+   border-radius: 16px;
+   margin-left: 32px;
+   margin-right: 64px;
+   margin-top: 8px;
+   margin-bottom: 32px;
+   padding-left: 16px;
+   padding-right: 16px;
+   padding-top: 32px;
+   padding-bottom: 32px;
+   opacity: 1;
+   color: black;
+} 
+
+div p {
+    color: blueviolet;
+    margin: 8px auto;
+    width: 50px; 
+}
+p::before {
+    content: "before";
+    margin-left: 8px;
+    background-color: black;
+}
+
+p::after {
+    content: "after";
+    margin-right: 8px;
+}
+
+p::selection {
+    color: black;
+    background-color: yellow;
+}
+
+p:hover{
+           color:red;
+           cursor: pointer;
+}
+
+.class2:first-child{
+    color:aqua;
+    cursor: pointer;
+}
+
+.class1:last-child{
+    color: red;
+    cursor: pointer;
+}
+
+:only-child {
+    color: aqua;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

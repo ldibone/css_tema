@@ -1,0 +1,75 @@
+.class2 { 
+    color: black;
+    border-color: black;
+    margin: 8px;
+    width: 75px;
+    height: 75px;
+} 
+
+
+.class1  { 
+    color: blueviolet;
+    border-color: black;
+    margin: 8px;
+    width: calc(100%-50px);
+    width: 25vw;
+    height: 50px;
+} 
+
+.class3 {
+    width:50%;
+    border: 1px solid red;
+}
+
+.parent1 {color: black;
+    margin: 8px;
+    width: 75px;
+    height: 75px;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+}
+
+
+p{
+    color: black;
+    border-color: black;
+}
+
+
+#uniq{ 
+    font-size: 2rem;
+    margin-left: 32px;
+    margin-right: 64px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border: 1px solid rgb(0, 0, 0);
+    border-color: black;
+    width: calc(100%-50px);
+}
+
+
+p:hover{
+    border-color: red;
+    color: red;
+    cursor: pointer;
+    }
+   
+p:first-child{
+   color:green;
+}
+
+p:nth-child(3){
+color: yellow;
+    }
+
+p:last-child{
+color: red;
+}
+
+
+
+
